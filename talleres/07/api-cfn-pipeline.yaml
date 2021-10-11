@@ -94,9 +94,9 @@ Resources:
     Properties:
       AvailabilityZones: !GetAZs
       LaunchConfigurationName: !Ref LaunchConfiguration
-      DesiredCapacity: 1
-      MaxSize: 3
-      MinSize: 1
+      DesiredCapacity: 0
+      MaxSize: 0
+      MinSize: 0
       LoadBalancerNames:
         - !Ref LoadBalancer
       Tags:
